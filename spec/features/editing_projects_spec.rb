@@ -17,8 +17,8 @@ feature 'Users can edit existing projects' do
     expect(page).to have_content "Sublime Text 4 beta"
   end
   scenario 'when providing invalid attributes' do
-    click_button "Update Project"
     fill_in "Name", with: ""
+    click_button "Update Project"
 
     expect(page).to have_content "Project has not been updated."
 

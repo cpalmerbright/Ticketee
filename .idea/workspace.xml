@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="427f6157-659e-4e16-b83f-eed81525a268" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/features/editing_projects_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/features/deleting_projects_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ticketee.iml" afterPath="$PROJECT_DIR$/.idea/ticketee.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/new.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/show.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/editing_projects_spec.rb" afterPath="$PROJECT_DIR$/spec/features/editing_projects_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +15,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ticketee@Users_can_delete_projecs__ticketee.coverage" NAME="Users can delete projecs: ticketee Coverage Results" MODIFIED="1492125433808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ticketee" />
     <SUITE FILE_PATH="coverage/ticketee@Development__ticketee.coverage" NAME="Development: ticketee Coverage Results" MODIFIED="1492120593229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ticketee" />
     <SUITE FILE_PATH="coverage/ticketee@editing_project_specs.coverage" NAME="editing_project_specs Coverage Results" MODIFIED="1492123527649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec/features" MODULE_NAME="ticketee" />
     <SUITE FILE_PATH="coverage/ticketee@spec__ticketee.coverage" NAME="spec: ticketee Coverage Results" MODIFIED="1492121788218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ticketee" />
     <SUITE FILE_PATH="coverage/ticketee@Users_can_view_projects__ticketee.coverage" NAME="Users can view projects: ticketee Coverage Results" MODIFIED="1492123441333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ticketee" />
-    <SUITE FILE_PATH="coverage/ticketee@Run_spec__editing_projects_spec___ticketee.coverage" NAME="Run spec 'editing_projects_spec': ticketee Coverage Results" MODIFIED="1492124458491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ticketee" />
+    <SUITE FILE_PATH="coverage/ticketee@Run_spec__editing_projects_spec___ticketee.coverage" NAME="Run spec 'editing_projects_spec': ticketee Coverage Results" MODIFIED="1492125024213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ticketee" />
+    <SUITE FILE_PATH="coverage/ticketee@Users_can_edit_existing_projects_when_providing_invalid_attributes__ticketee.coverage" NAME="Users can edit existing projects when providing invalid attributes: ticketee Coverage Results" MODIFIED="1492125667717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ticketee" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -52,8 +49,18 @@
       <file leaf-file-name="editing_projects_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/features/editing_projects_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleting_projects_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/deleting_projects_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -62,8 +69,8 @@
       <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,16 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewing_projects_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/viewing_projects_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="GeneratorOptions">
@@ -156,6 +153,7 @@
         <option value="$PROJECT_DIR$/app/views/projects/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/features/deleting_projects_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/editing_projects_spec.rb" />
       </list>
     </option>
@@ -419,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'editing_projects_spec': ticketee">
+  <component name="RunManager" selected="RSpec.Users can edit existing projects when providing invalid attributes: ticketee">
     <configuration default="false" name="Users can view projects: ticketee" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ticketee" />
@@ -478,6 +476,74 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Users can delete projecs: ticketee" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ticketee" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/deleting_projects_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Users can delete projecs" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Users can edit existing projects when providing invalid attributes: ticketee" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ticketee" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/editing_projects_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Users can edit existing projects when providing invalid attributes" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -679,7 +745,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="7">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Rake.test: ticketee" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: ticketee" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: ticketee" />
@@ -687,12 +753,16 @@
       <item index="4" class="java.lang.String" itemvalue="Ruby.editing_project_specs" />
       <item index="5" class="java.lang.String" itemvalue="RSpec.Users can view projects: ticketee" />
       <item index="6" class="java.lang.String" itemvalue="RSpec.Run spec 'editing_projects_spec': ticketee" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.Users can delete projecs: ticketee" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.Users can edit existing projects when providing invalid attributes: ticketee" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'editing_projects_spec': ticketee" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Users can view projects: ticketee" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.editing_project_specs" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Users can edit existing projects when providing invalid attributes: ticketee" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Users can delete projecs: ticketee" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'editing_projects_spec': ticketee" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Users can view projects: ticketee" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.editing_project_specs" />
       </list>
     </recent_temporary>
   </component>
@@ -708,7 +778,7 @@
       <option name="presentableId" value="Default" />
       <updated>1492083082852</updated>
       <workItem from="1492083084097" duration="10835000" />
-      <workItem from="1492123330748" duration="1299000" />
+      <workItem from="1492123330748" duration="2281000" />
     </task>
     <task id="LOCAL-00001" summary="Set up gem dependancies and ran RSPEC generator">
       <created>1492084039648</created>
@@ -745,22 +815,17 @@
       <option name="project" value="LOCAL" />
       <updated>1492120648438</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add the ability to update a project">
+      <created>1492124676557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492124676557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_spec_'editing_projects_spec'__ticketee - 2017.04.14 at 08h 47m 43s.xml">
-      <configuration name="Run spec 'editing_projects_spec': ticketee" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'editing_projects_spec'__ticketee - 2017.04.14 at 08h 49m 11s.xml">
-      <configuration name="Run spec 'editing_projects_spec': ticketee" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'editing_projects_spec'__ticketee - 2017.04.14 at 08h 52m 20s.xml">
-      <configuration name="Run spec 'editing_projects_spec': ticketee" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'editing_projects_spec'__ticketee - 2017.04.14 at 08h 54m 00s.xml">
-      <configuration name="Run spec 'editing_projects_spec': ticketee" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="Run_spec_'editing_projects_spec'__ticketee - 2017.04.14 at 08h 54m 43s.xml">
       <configuration name="Run spec 'editing_projects_spec': ticketee" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -773,15 +838,27 @@
     <history-entry file="Run_spec_'editing_projects_spec'__ticketee - 2017.04.14 at 09h 01m 04s.xml">
       <configuration name="Run spec 'editing_projects_spec': ticketee" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Users_can_view_projects__ticketee - 2017.04.14 at 08h 44m 13s.xml">
-      <configuration name="Users can view projects: ticketee" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'editing_projects_spec'__ticketee - 2017.04.14 at 09h 10m 36s.xml">
+      <configuration name="Run spec 'editing_projects_spec': ticketee" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__ticketee - 2017.04.14 at 08h 16m 40s.xml">
-      <configuration name="spec: ticketee" configurationId="RakeRunConfigurationType" />
+    <history-entry file="Users_can_delete_projecs__ticketee - 2017.04.14 at 09h 13m 22s.xml">
+      <configuration name="Users can delete projecs: ticketee" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Users_can_delete_projecs__ticketee - 2017.04.14 at 09h 17m 17s.xml">
+      <configuration name="Users can delete projecs: ticketee" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Users_can_edit_existing_projects_when_providing_invalid_attributes__ticketee - 2017.04.14 at 09h 18m 49s.xml">
+      <configuration name="Users can edit existing projects when providing invalid attributes: ticketee" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Users_can_edit_existing_projects_when_providing_invalid_attributes__ticketee - 2017.04.14 at 09h 20m 01s.xml">
+      <configuration name="Users can edit existing projects when providing invalid attributes: ticketee" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Users_can_edit_existing_projects_when_providing_invalid_attributes__ticketee - 2017.04.14 at 09h 21m 19s.xml">
+      <configuration name="Users can edit existing projects when providing invalid attributes: ticketee" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12134000" />
+    <option name="totallyTimeSpent" value="13116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1053" extended-state="0" />
@@ -796,7 +873,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40106952" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40106952" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -838,7 +915,8 @@
     <MESSAGE value="&quot;Add title functionality for project show page&quot;" />
     <MESSAGE value="Add validation to ensure names are specified when creating projects" />
     <MESSAGE value="Add the ability to view a list of all projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the ability to view a list of all projects" />
+    <MESSAGE value="Add the ability to update a project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the ability to update a project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1064,14 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1088,10 +1158,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/deleting_projects_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/editing_projects_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding />
         </state>
       </provider>
