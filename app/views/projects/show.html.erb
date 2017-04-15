@@ -1,5 +1,6 @@
 <header><% title(@project.name, "Projects") %>
 
+
   <h1><%= @project.name %></h1>
   <ul class="actions">
     <li>
@@ -15,6 +16,14 @@
     %>
     </li>
   </ul>
-</header>>
+</header>
 
 <p><%= @project.description %></p>
+
+<header>
+  <h2> Tickets </h2>
+  <ul class="actions">
+    <%= link_to "New Ticket", new_project_ticket_path(@project),
+                class: 'new' %>
+  </ul>
+</header>
