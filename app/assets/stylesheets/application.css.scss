@@ -44,13 +44,6 @@ a.new {
   }
 }
 
-a.sign-up {
-  @extend .btn-primary;
-  &:before {
-    @extend .fa-user-plus
-  }
-}
-
 a.delete {
   @extend  .btn-danger;
   &:before {
