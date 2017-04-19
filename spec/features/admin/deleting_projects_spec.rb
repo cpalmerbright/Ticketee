@@ -2,7 +2,11 @@ require 'rails_helper'
 require 'rspec-rails'
 
 feature 'Users can delete projects' do
+  before do
+    login_as(FactoryGirl.create(:user, :admin))
+  end
   scenario 'Successfully' do
+
     FactoryGirl.create(:project, name: "Sublime Text 3")
 
     visit "/"
